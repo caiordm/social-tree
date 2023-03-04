@@ -3,7 +3,8 @@ A fim de praticar e estudar HTML &amp; CSS, fiz essa Social Tree, inspirada num 
 
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-Futuramente pretendo usar JavaScript para tornar o site funcional, onde o cliente pode adicionar seus próprio links.
+
+ Futuramente pretendo usar JavaScript para tornar o site funcional, onde o cliente pode adicionar seus próprio links.
 
 ## Tecnologias Utilizadas
 - HTML
