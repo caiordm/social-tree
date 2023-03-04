@@ -1,0 +1,87 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#perfil {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    padding: 2px;
+    border: solid 3px var(--purple);
+}
+
+span {
+    color: var(--purple);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px 5px 0px;
+}
+
+p {
+    color: var(--purple);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+    padding: 10px;
+    width: 350px;
+    height: 40px;
+
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: 0.25s;
+}
+
+.redes {
+    margin-top: 40px;
+}
+
+.redes a {
+    padding: 10px;
+}
+
+.redes a img {
+    transition: 0.25s;
+}
+
+.links a:hover {
+    background-color: var(--purple);
+    color: var(--body-bg-color);
+    border-radius: 8px;
+}
+
+.redes a img:hover{
+    transform: scale(1.3);
+}
+
